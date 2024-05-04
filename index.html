@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website By Christian Paul Espares</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"> 
+    <link rel="stylesheet" href="css/styles.css"> 
+
+</head>
+<body>
+    <header class="site-header">
+        <h1 class="mt-0 mb-15"><span class="color-primary">Ticao</span> <span class="color-gray-2">island</span></h1>
+        <em class="tagline color-light-gray">Hidden Gem of Masbate</em>
+        <em class="tagline color-light-gray">"The Early Spanish Settlement in the island"</em>
+    </header>
+
+    <div id="video-container">
+        <video autoplay muted loop id="video">  
+            <source src="video/HOME-vid.mp4" type="video/mp4">
+        </video>  
+        <i id="video-control-button" class="fas fa-pause"></i>
+    </div>
+    <div class="container">
+        <nav class="main-nav">
+            <ul id="inline-popups">
+                <li class="nav-item">
+                    <a href="#intro" data-effect="mfp-move-from-top" class="nav-link">
+                        Introduction
+                        <i class="fas fa-3x fa-water"></i>
+                    </a>                
+                </li>
+                <li class="nav-item">
+                    <a href="#about" data-effect="mfp-move-from-top" class="nav-link">
+                        History
+                        <i class="fas fa-3x fa-hourglass"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" data-effect="mfp-move-from-top" class="nav-link" id="gallery-link">
+                        Highlights
+                        <i class="far fa-3x fa-images"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#source" data-effect="mfp-move-from-top" class="nav-link">
+                        Sources
+                        <i class="far fa-3x fa-smile"></i>
+                    </a>
+                </li>          
+            </ul>
+        </nav>
+
+        <!-- Introduction -->
+        <!-- the Pop up -->
+        <div id="intro" class="popup mfp-with-anim mfp-hide bg-gray">
+            <a href="#" class="close-popup">
+                return home
+                <i class="fas fa-times"></i>
+            </a>
+            <div class="row intro-row">
+                <img src="img/Ticao-Intro.jpg" alt="Image" class="intro-img">
+                <div class="col bg-white intro-pad">
+                    <h3 class="color-primary page-title">Introduction to Ticao Island</h3>
+                    <div class="row content-row">
+                        <div class="col-6 intro-col-l">
+                            <p>
+                                Ticao Island is an island with a total land area of 334 km2 or 129 sq mi. It is one of the three major islands of Masbate province in the Philippines. It is separated from the Bicol Peninsula by the Ticao Pass.
+                            </p>
+                                <br>
+                            <p>
+                                The Island is known as an archaeological landscape, possessing thousands of pre-colonial artifacts such as the Baybayin-inscribed Rizal Stone, Ticao gold spike teeth, Burial jars of varying designs and sizes, jade beads, human face rock statues, and the Ticao petrographs. 
+                            </p>
+                            <p class="mb-10">
+                                Much of the homes in Ticao island use these archaeological finds to design their interiors. The island is also an ecological frontier for the conservation of manta rays. The island also possesses a 'rare subspecies' of Visayan warty pig, that is almost near extinction. Penelopides panini ticaensis, or the Ticao hornbill, was a subspecies of the Visayan hornbill (Penelopides panini) known to occur only in Ticao Island.
+                            </p>
+                        </div>
+
+                        <div class="col-6">
+                          <h3 class="mb-10">SAN JACINTO: GATEWAY TO THE PACIFIC</h3>
+                          <img src="img/ticao pass.jpg" alt="Image" class="mb-30">
+                          <p class="mb-10">San Jacinto in Ticao Island served as an alternate port call for the galleons. In these ports, the galleons docked for repairs and resupplying of their food provisions during the Manila, Acapulco Galleon Trade.
+                            </p>
+                            <p class="mb-10">During those times, San Jacinto became the stop-over of galleons before heading to the Embocadero (San Bernardino Strait) or simply called by the Bisayans as “Tagbaluran”. There are times that ships had to lie for days at the Ports of San Jacinto and some other parts of the island as they wait for the monsoon to break out in order for them to get out of the Strait of San Bernardino.
+                            </p>
+                            <p class="mb-10">There is a report which says that a royal order was issued exempting the people of Ticao Island from paying tributes in exchange for servicing the needs of the galleons that called on San Jacinto.
+                            </p>
+                            <p class="mb-10 color-black">
+                                Sources: <br>
+                                    Banzuela, Raffi. 2014. Bikol in the Galleon Times pp. 81 <br>
+                                    Mallari Francisco S.J. 1999. Vignettes of Bicol History pp. 70 <br>
+                                    Gerona Danilo M. 2011 Las Islas de Masbate pp. 76-77
+                            </p>
+                        </div>                                                                  
+                    </div>
+                </div>                
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn btn-primary mfp-prevent-close btn-next">
+                    Next Page
+                </a>
+            </div> 
+        </div>
+
+        
+    <div id="about" class="popup mfp-with-anim mfp-hide bg-gray">
+            <a href="#" class="close-popup">
+                return home
+                <i class="fas fa-times"></i>
+            </a> 
+            <div class="col bg-white intro-pad">
+            <h2 class="color-primary about-col mb-40 page-title">History of Ticao Island</h2>
+            
+            <div class="row about-row">                 
+                <div class="col about-col">
+                    <h3 class="mb-40">Historical Background</h3>                    
+                    <img src="img/map de ticao.jpg" alt="Image" class="mb-30">
+                    <p class="mb-40">
+                        The Manila Galleons or Spanish trading ships, carrying the best of Philippine goods, 
+                        sailed across China Sea and the Pacific Ocean for more than two centuries, from 1565 to 1815. 
+                        Through all these years, the ships passed through the seas of Masbate in its voyages between Acapulco and Manila (and vice versa), most of them stopping for anchorage in Ticao Island.
+                    </p>                  
+                    <img src="img/Luis-DG.jpg" alt="Image" class="mb-10">
+                    <p class="mb-10">Capt. Luis de Guzman</p>
+                    <p class="mb-40">
+                        <strong>In July 1569</strong>, the Augustinian Fray Alonso Jimenez joined the expedition of Capt. Luis de Guzman to explore Masbate, Ticao, Burias and the Bicol Peninsula. Side by side with exploration, he ministered and gave baptism to many local chiefs and their followers. He later returned to Masbate as his base before going back to Cebu in 1572.</p>
+                    <p class="mb-40">
+                        <strong>In 1594</strong>, at about the time the galleon Trade began in earnest, the Franciscans took over religious administration of the Bicol Peninsula except for the three islands of Masbate, Ticao and Burias. Because of lack of personnel and the fear of Muslim attacks, a hiatus of religious activity followed. 
+                                            </p>
+                    <p class="mb-40">
+                        <strong>In May 1688</strong>, the Recollects (from Manila) Juan de San Felipe and Juan dela Encarnacion took over administration of the three islands. Several years later they established missions in San Jacinto (Ticao), Masbate and Burias despite difficulties and problems encountered. In time, the supervision of these missions were transferred to Nueva Caceres (Naga).                    
+                    </p>
+                    <p class="mb-40">
+                        <strong>Special mention</strong>
+                        <br>
+                        The Maguindanao's fight for religious and political freedom from Spanish colonization was also a factor in the historical development of Ticao Island.
+                    </p>
+                </div>
+
+                <div class="col about-col">
+                    <h3 class="mb-10">Origin of the Name "Ticao"</h3>
+                    <p class="mb-40">
+                        One of these Muslim seaborne patrols arrived early part of <strong>1603</strong> in a vinta and saw the untouched evergreen rolling coastline in what is now Rondahan. The Muslim leader decided to land and investigate and liked what he saw. The group decided to stay, settle in the area and made their first clearing, probably assisted by local natives since all of them were seafaring warriors. 
+                    </p>
+                    <p class="mb-40">
+                        <strong>In 1603</strong>, an English frigate prowling the galleon trade route along the present day Ticao Pass happened to pass by. Noticing the green panoramic vista of the terrain, the Captain became curious about the new settlement and sent a team on a rowboat ashore to investigate and saw a native on top of a rock pounding a vine. The white man motioned his arm in gesture of friendship (at the time the English were friendly to the Muslims who were against the Spaniards)and attempted to ask the name of the island in a foreign tone. The native, trembling in fear answered, "Tigao" the name of the vine he was pounding which is used in poisoning fish. The Englishman thought that the island's name was Tigao and then recorded "Tigao" as the island's name and since then was also used to refer to the new settlement.
+                    </p>
+                    <p class="mb-40">
+                        <strong>In 1656</strong>, Fr. Pedro Espallergas of Bacon, Sorsogon discovered Abaca hemp, which later became chief export of the region along with precious metais found in the area. These goods became part of the load of the Manila-Acapulco Galleon trade that regularly passes through Ticao Pass. Because of its strategic location along a busy legendary trade route, Tigao prospered and some Spaniards, Portuguese, Chinese, and other migrants came to settle. At this time the initials Muslim settlers must have been overwhelmed by the newcomers, assimilated, or transferred to other places, as they were not heard of again. This could have been one of the reasons why the place became the target of frequent Moro raids after several years of inactivity, it became the barrio of Nueva Caceres (Naga).
+                    </p>
+                    <p class="mb-40">
+                        <strong>In 1701</strong>, under the supervision of Bishop Gregorio Grejolvo who changed the name of Ticao after the native term "Tico" because of its irregular coastline. Later the barrio of Ticao was elevated to a pueblo (town) and became the entreport of sort between the Bicol peninsula and Masbate mainland. But up to now, the term Tigaonon that refer to the residents of San Jacinto, still sticks.
+                    </p> 
+                    </div>
+                    <div class="col about-col">
+                        <h3 class="mb-10">Legend of San Jacinto</h3>
+                        <p class="mb-40">
+                             Legend has it that in 1718, a ship (probably from Acapulco) was wrecked and sunk due to typhoon in Ticao pass with a handful of survivors blown to the island. One of them was Jacinto, a Franciscan frier who survived because of the bust Sto. Cristo de Burgos which he clinged to in his ordeal in the stormy sea. This carving was believed to be his savior and became the center of generation and celebration that followed. Father Jacinto led a virtuous life in Ticao. He helped the poor, assisted the seek and the needy. He christened the pagans and converted local settlers to Christianity. The Tigaonons revered Jacinto as a model and holy man.
+                        </p>
+                        <p class="mb-40">
+                            After several years, a ship arrived urging Jacinto to return to his native land. He boarded the ship that day with Sto. Cristo de Burgos and the "retablo" saved from the sea. Barely did the crew raise the 'sail on the mast when a gust of wind blew hard forcing the ship to retum ashore. This happened thrice. On the fourth day, Jacinto taught of leaving Sto. Cristo behind. Then they sailed on as if guided by divine hands under favorable winds. Way back in Ticao, the people constructed a chapel and made Sto. Cristo de Burgos its Patron Saint. This Patron Saint was believed to have saved many people from danger during natural disasters and the infamous Moro raids that frequently happened thereafter. The Tigaonons (for a long time there was only one town in Ticao) remembering Father Jacinto, named the town "San Jacinto" after him who was belived to be a holy man.                        </p>
+                        </p>
+                        
+                        <p class="mb-10 color-black">
+                            References:
+                            <br>
+                            1. A Tigaonon Seach for Identity - Ret. Gen Roger H. Deinla                           
+                        </p>
+                    </div>
+            </div>           
+        </div>
+        <div class="row center-row">
+            <div class="text-center">
+                <a href="#" class="btn btn-primary mfp-prevent-close btn-prev">
+                    Previous Page
+                </a>
+            </div>  
+            <div class="text-center">
+                <a href="#" class="btn btn-primary mfp-prevent-close btn-next">
+                    Next Page
+                </a>
+            </div>
+        </div>
+  </div>
+
+
+        <!-- Highlights -->
+        <div id="gallery" class="popup mfp-with-anim mfp-hide bg-gray">
+            <a href="#" class="close-popup">
+                return home
+                <i class="fas fa-times"></i>
+            </a>
+            <div class="col bg-white intro-pad">
+            <h2 class="color-primary mt-35 page-title">Highlights</h2>
+            <div class="row gallery-row">
+                <div class="gallery">
+                    <div class="gallery-container">                        
+                        <figure class="effect-caption gallery-item event">
+                            <img src="img/dayawdalan.jpg" alt="Image"/>
+                            <figcaption>
+                                <p>Dayaw Dalan Festival</p>							
+                            </figcaption>			
+                        </figure>
+                        <figure class="effect-caption gallery-item event">
+                            <img src="img/tiganghelan.jpg" alt="Image"/>
+                            <figcaption>
+                                <p>Tig anghelan Festival</p>							
+                            </figcaption>			
+                        </figure>
+                        <figure class="effect-caption gallery-item crops">
+                            <img src="img/beans.jpg" alt="Image"/>
+                            <figcaption>
+                                <p> Beans</p>							
+                            </figcaption>			
+                        </figure>
+                        <figure class="effect-caption gallery-item crops">
+                            <img src="img/corn.jpg" alt="Image"/>
+                            <figcaption>
+                                <p> Corn</p>							
+                            </figcaption>			
+                        </figure>
+                        <figure class="effect-caption gallery-item crops">
+                            <img src="img/cacao.jpg" alt="Image"/>
+                            <figcaption>
+                                <p> Cacao</p>							
+                            </figcaption>			
+                        </figure>
+                        <figure class="effect-caption gallery-item crops">
+                            <img src="img/papaya.jpg" alt="Image"/>
+                            <figcaption>
+                                <p> Papaya</p>							
+                            </figcaption>			
+                        </figure>
+                        <figure class="effect-caption gallery-item crops">
+                            <img src="img/sweet potato.jpg" alt="Image"/>
+                            <figcaption>
+                                <p> Sweet potato or Kamote</p>							
+                            </figcaption>			
+                        </figure>                                            
+                        <figure class="effect-caption gallery-item resort">
+                            <img src="img/club de ticao.jpg" alt="Image"/>
+                            <figcaption>
+                                <p> Club de Ticao Beach Resort</p>							
+                            </figcaption>			
+                        </figure>
+                        <figure class="effect-caption gallery-item resort">
+                            <img src="img/Lantau.jpg" alt="Image"/>
+                            <figcaption>
+                                <p>  Lantau Baie Resort</p>							
+                            </figcaption>			
+                        </figure>
+                        <figure class="effect-caption gallery-item resort">
+                            <img src="img/ticao island resort.jpg" alt="Image"/>
+                            <figcaption>
+                                <p> Ticao Island Dive Camp & Resort</p>							
+                            </figcaption>			
+                        </figure>
+                        <figure class="effect-caption gallery-item resort">
+                            <img src="img/ticao altamar .jpg" alt="Image"/>
+                            <figcaption>
+                                <p> Ticao Altamar Boutique Resort</p>							
+                            </figcaption>			
+                        </figure>
+                                       
+                    </div>
+                </div>
+                <!-- Gallery navigation and description -->
+                <div class="col gallery-right">
+                    <div class="gallery-right-inner">
+                        <ul class="gallery-links">
+                            <li>
+                                <a href="#" class="active gallery-link" data-filter="*">
+                                    <i class="fas fa-layer-group gallery-link-icon"></i>
+                                    All
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="gallery-link" data-filter="event">
+                                    <i class="fas fa-portrait gallery-link-icon"></i>
+                                   Events
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="gallery-link" data-filter="crops">
+                                    <i class="fas fa-leaf gallery-link-icon"></i>
+                                    Foreign Crops
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="gallery-link" data-filter="resort">
+                                    <i class="far fa-building gallery-link-icon"></i>
+                                   Resorts
+                                </a>
+                            </li>                  
+                        </ul>
+                        <p class="mb-10">
+                        These are some Highlights that are found in Ticao Island
+                        </p>
+                        <p class="mb-10">
+                        Most of this are from the influence of the Spanish colonization while some are from the progressive advancement made by the people.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="row center-row">
+                <div class="text-center">
+                    <a href="#" class="btn btn-primary mfp-prevent-close btn-prev">
+                        Previous Page
+                    </a>
+                </div>  
+            <div class="text-center">
+                <a href="#" class="btn btn-primary mfp-prevent-close btn-next">
+                    Next Page
+                </a>
+            </div>
+            </div>
+        </div>
+
+        <div id="source" class="popup mfp-with-anim mfp-hide bg-gray">
+            <a href="#" class="close-popup">
+                return home
+                <i class="fas fa-times"></i>
+            </a>
+            <div class="col bg-white intro-pad">
+                <h2 class="color-primary source-col page-title">Sources</h2>
+                <div class="row source-row">                
+                    <div class="col source-col">
+                        <h2 class="mb-15">Document Source</h2>
+                        <img src="img/document1.png" alt="Image" class="mb-10">
+                        <img src="img/document2.png" alt="Image" class="mb-10">
+                        <p class="mb-10">Official Documentation</p>
+                        
+                        <p class="mb-10">Other Sources:</p>
+                        <a class="mb-10 color-blue" href="https://youtu.be/WX4iiB-bW6Y?si=JfVtq9B4VyqzB8yX"> Ticao History Explained</a> <br>                                  
+                        <a class="mb-10 color-blue" href="https://youtu.be/DQD8XYAwy_8?si=EQPrF0HA2vATQFYV"> Spanish Settlement in Ticao Island</a> <br>
+                        <a class="mb-10 color-blue" href="https://youtu.be/yCEDn9ThU30?si=ja0qOGCS07kMtIzD"> The Galleon Trade and the Spanish Influence in Ticao Island</a>                                                                           
+
+                    </div>
+                    <div class="col source-col">
+                        <h2 class="mb-15">Historian Source</h2>
+                        <img src="img/Raffi-Banzuela.jpg" alt="Image" class="mb-10">
+                        <p class="mb-10">Historian Rafael A. Banzuela Jr.</p>
+                        <p class="mb-40">
+                            Is an essayist, fictionist, poet, translator, historian. He studied at the Divine Word College and Aquinas University of Legazpi; taught at the Bicol University and Aquinas University; and did stints in government work, journalism, and radio broadcasting.                                             
+                        </p>
+                        <p class="mb-40">
+                            His published works also include: Selebra (Celebrate), 2011, a collection of poems, and Albay Viejo (Old Albay), 2010, a collection of prose works on Albay. His recent book for Bansay Bikolnon is a mini biography of Potenciano V. Gregorio Sr., the composer of the song Sarong Banggi. He also edited works by known Bikol poets and an anthology by young writers. He was honored with these awards: Outstanding Albayano Artist (Literary Arts) in 2013; the NCCA Writers Prize in 2013; Gawad Pambansang Alagad ni Balagtas in 2015 by the Unyon ng nga Manunulat ng Pikipinas; and Gawad Kampeon ng Wika by the Komisyon sa Wikang Filipino in 2017.                         
+                        </p>
+                        <p class="mb-10">Gathered sources:</p>
+                        <a class="mb-10 color-blue" href="https://sorsogoncity.wordpress.com/2011/12/10/masbate-in-the-galleon-times-part-1-of-3/"> Masbate in the Galeon Times</a>                                        
+                    </div>                 
+            </div>
+            </div>
+            <div class="row center-row">
+                <div class="text-center">
+                    <a href="#" class="btn btn-primary mfp-prevent-close btn-prev">
+                        Previous Page
+                    </a>
+                </div>  
+            </div>           
+        </div>   
+    <footer class="footer">
+        <span>Copyright &copy; 2024 CPEDesigns</span>
+        <span>Web Designed by 
+        <a href="#" target="_parent" rel="nofollow">Christian</a></span>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/5.0.0/imagesloaded.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>    
+<script src="js/script.js"></script>
+</body>
+</html>
